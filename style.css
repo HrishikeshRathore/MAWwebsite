@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+/* -----------------------------------------Header navigation-------------------------------------------- */
+
+
+.background{
+    display: flex;
+    position: relative;
+    height: 50rem;
+}
+
+.lefthead{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 100%;
+}
+
+.righthead{
+    background-color: rgb(48, 17, 78);
+    width: 40%;
+    height: 100%;
+}
+
+.navbar{
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right:10%;
+    left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar h1{
+    width: 20%;
+    color: rgb(48, 17, 78);
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(48, 17, 78);
+    font-weight: bold;
+}
+
+.navbar ul li a span{
+    color: #fff;
+}
+
+.headercontent{
+    background-color: #fff;
+    height: 60%;
+    width: 70%;
+    position: absolute;
+    top: 6rem;
+    padding: 50px 100px;
+}
+
+.respnav{
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    width: 15%;
+    height: 70%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.respnav i{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.headercontent h4{
+    color: gray;
+    font-size: 2rem;
+}
+
+.headercontent h2{
+    color: rgb(48, 17, 78);
+    font-size: 4rem;
+    width: 70%;
+}
+
+.headercontent p{
+    color: rgb(48, 17, 78);
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding-top: 80px;
+}
+
+.searchbar form {
+  background-color: #fa86ce;
+  width: 70%;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchbar input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.searchbar ::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+
+.searchbar button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  color: rgb(48, 17, 78);
+}
+
+.searchbar svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.searchbar{
+    padding: 100px 150px;
+}
+
+.imagehead{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 5px;
+}
+
+.imagehead img{
+    width: 400px;
+    height: 500px;
+}
+
+
+/* -------------------------------------------------------Footer----------------------------------------------------- */
+
+#footer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(223, 222, 222);
+}
+
+#footer div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#footer p{
+    font-size: 1.2rem;
+    color: rgb(48, 17, 78);
+}
+
+#footer h1{
+    font-size: 2.5rem;
+    line-height: 2;
+    color: rgb(48, 17, 78);
+}
+
+#footer h4{
+    font-size: 1.8rem;
+    line-height: 2.5;
+    color: rgb(48, 17, 78);
+}
+
+#footer button{
+    background-color: rgb(48, 17, 78);
+    color: wheat;
+    border: 2px solid rgb(48, 17, 78);
+    width: 30%;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.div1{
+    width: 30%;
+}
+
+.div2, .div3, .div4{
+    width: 20%;
+}
+
+#end{
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(223, 222, 222);
+}
+
+#end .ending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ending h2{
+    padding-right: 10px;
+    color:  rgb(48, 17, 78);
+}
+
+.ending a{
+    text-decoration: none;
+    padding: 0 4px;
+    font-size: 20px;
+    color: rgb(48, 17, 78);
+}
+
+.ending .line{
+    width: 1px;
+    border-radius: 20px;
+    margin: 0 4px;
+    height: 20px;
+    background-color: rgb(48, 17, 78);
+}
+
+
+/* ----------------- orders ----------------------------- */
+
+.orders{
+    background-color: rgb(48, 17, 78);
+    width: 100%;
+    height: 9rem;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trapezoid {
+	border-bottom: 7rem solid rgb(255, 255, 255);
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+    height: 2px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trapezoid div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.trapezoid div i{
+    font-size: 3rem;
+    color: rgb(48, 17, 78);
+}
+
+.trapezoid div p{
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+    color: rgb(48, 17, 78);
+}
+
+/* ----------------------Our Services-------------------------- */
+
+#ourservices{
+    background: rgb(235, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+#ourservices h1{
+    color: rgb(48, 17, 78);
+    font-size: 2rem;
+}
+
+#ourservices p{
+    color: rgb(48, 17, 78);
+    font-size: 1rem;
+}
+
+.cards {
+    margin: 40px 40px;
+  width: 80%;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.card {
+  background-color: rgb(48, 17, 78);
+  color: white;
+  margin: 0 2rem;
+  height: 22rem;
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 35px ;
+}
+
+.card img{
+    width: 94%;
+    height:60%;
+    border-radius: 25px;
+}
+
+.card h2{
+    padding-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#ourservices .card p{
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 40px;
+}
+
+/* expert team */
+#expertteam{
+    background: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.design h1{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.design p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.expertbg{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.design{
+    border-bottom: 400px solid rgb(48, 17, 78);
+	border-left: 0px solid transparent;
+	border-right: 250px solid transparent;
+	height: 0px;
+	width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.normal h1{
+    color: rgb(48, 17, 78);
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.mySlides {
+    display:none;
+}
+
+.w3-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.mySlides div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.con h2{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.con p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.w3-button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.mySlides img{
+    width: 200px;
+    height: 250px;
+}

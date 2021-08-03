@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1000px){
+
+    /* --------------------------header--------------------------- */
+    
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar h1{
+        font-size: 2rem;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .imagehead img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .searchbar form{
+        width: 90%;
+    }
+
+    .headercontent{
+        width: 60%;
+        height: 50%;
+    }
+
+    .respnav{
+        display: flex;
+    }
+
+    .searchbar{
+        padding: 50px 100px;
+    }
+
+
+    /* -------------oreders-------------------- */
+    .trapezoid{
+        width: 70%;
+    }
+
+
+    /* +++++++++++++++++ Services ++++++++++++++++++++ */
+
+    .cards { grid-template-columns: repeat(2, 1fr); }
+
+}
+
+@media only screen and (max-width: 700px){
+
+    /* -------------------------header------------------------------------ */
+    .imagehead img{
+        display: none;
+    }
+
+    .headercontent{
+        width: 70%;
+        padding: 40px 20px;
+    }
+
+    .headercontent h2{
+        font-size: 2.5rem;
+        padding: 2px 0px;
+    }
+
+    .headercontent h4{
+        font-size: 1.5rem;
+    }
+
+    .headercontent p{
+        padding-top: 20px;
+        font-size: .8rem;
+    }
+
+    .respnav i{
+        font-size: 1.3rem;
+    }
+
+    .background{
+        height: 35rem;
+    }
+
+    .respnav{
+        height: 60%;
+    }
+
+    .searchbar form{
+        width: 100%;
+    }
+
+    .searchbar{
+        padding: 50px 30px;
+    }
+
+   .navbar h1{
+        background-color: aliceblue;
+    }
+
+    /* footer */
+
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer h1{
+        font-size: 2rem;
+    }
+
+    #footer div{
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    /* ---------------orders------------------------ */
+
+    .trapezoid{
+        border-bottom: 50px solid rgb(48, 17, 78);
+	    border-left: 0px solid transparent;
+	    border-right: 0px solid transparent;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trapezoid div i{
+        color: white;
+    }
+
+    .trapezoid div p{
+        color: white;
+    }
+
+    .orders{
+        height: 500px;
+    }
+
+    /* =================================== our services ======================== */
+
+    .cards { grid-template-columns: repeat(1, 1fr); 
+        margin: 0 0;
+        grid-gap: 5px;
+        padding-top: 20px;
+    }
+
+    .card{
+        margin: 0 0;
+        margin-top: 20px;
+    }
+
+
+    /* --------------------------experts------------------------------------- */
+
+    .expertbg{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .design{
+        border-bottom: 300px solid rgb(48, 17, 78);
+        border-left: 0px solid transparent;
+        border-right: 0px solid transparent;
+        height: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design h1{
+        font-size: 1.5rem;
+    }
+
+    .p{
+        padding:0 20px;
+    }
+
+
+    .con h2{
+        font-size: 1rem;
+    }
+
+    .con p{
+        font-size: .8rem;
+    }
+
+    .mySlides img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .expertslider button{
+        margin: 0;
+    }
+
+}
