@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    background-color: rgb(48, 19, 78);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content{
+    margin: 60px 12%;
+}
+
+.content h2{
+    color: rgb(48, 19, 78);
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.content p{
+    color: rgb(84, 39, 132);
+    text-align: justify;
+    font-size: 1.1rem;
+}

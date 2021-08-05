@@ -183,7 +183,7 @@
 
     .searchbar form{
         width: 100%;
-    }
+    } 
 
     .searchbar{
         padding: 50px 30px;
@@ -291,7 +291,7 @@
 
     .expertslider button{
         margin: 0;
-    }
+    } 
 
     /* clients */
 
@@ -319,4 +319,4 @@
         font-size: .9rem;
     }
 
-}
+}           
